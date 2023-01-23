@@ -3,6 +3,7 @@
 // и удаляет вторую цифру этого числа
 
 // Вариант 1
+
 // System.Random newSintezator = new System.Random();
 // int num = newSintezator.Next(100,1000);
 
