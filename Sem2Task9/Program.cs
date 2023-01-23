@@ -23,10 +23,12 @@
 //Вариант 2
 // Метод  Next -> возвращает тип int. Нужно преобразовать массив в число
 char[] digits = numSintezator.Next(10,100).ToString().ToCharArray();
+
 // -48 - преобразование символов в число
 Console.WriteLine(digits);
 int digit1 = (int)digits[0]-48;
 int digit2 = (int)digits[1]-48;
+
 // Тернарый оператор для логического сравнения. "?" если верно, то. ":" - иначе. 
 int resNum = digit1>digit2?digit1:digit2;
 Console.WriteLine(resNum);
@@ -35,6 +37,7 @@ Console.WriteLine(resNum);
 // int rndNum = numSintezator.Next(10, 100);
 // Console.WriteLine(rndNum);
 // int[] indxAnsw = new int[90];
+// Заводим ссылки на ячейки массива для ускорения работы
 // indxAnsw[0] = 1;indxAnsw[1] = 1;indxAnsw[2] = 2;indxAnsw[3] = 3;indxAnsw[4] = 4;indxAnsw[5] = 5;indxAnsw[6] = 6;indxAnsw[7] = 7;indxAnsw[8] = 8;indxAnsw[9] = 9;
 // indxAnsw[10] = 2;indxAnsw[11] = 2;indxAnsw[12] = 2;indxAnsw[13] = 3;indxAnsw[14] = 4;indxAnsw[15] = 5;indxAnsw[16] = 6;indxAnsw[17] = 7;indxAnsw[18] = 8;indxAnsw[19] = 9;
 // indxAnsw[20] = 3;indxAnsw[21] = 3;indxAnsw[22] = 3;indxAnsw[23] = 3;indxAnsw[24] = 4;indxAnsw[25] = 5;indxAnsw[26] = 6;indxAnsw[27] = 7;indxAnsw[28] = 8;indxAnsw[29] = 9;
