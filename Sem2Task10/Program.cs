@@ -2,14 +2,18 @@
 // Напишите программу, которая принимает на вход трёхзначное число 
 // и на выходе показывает вторую цифру этого числа.
 
-ReadInt = number int("Введите трехзначное число: ");
-число  =  сумма  int.toString().Длина;
+Console.WriteLine("Введите трехзначное число: ");
 
-если (сумма < 3 ||  сумма > 3)
+string? number = Console.ReadLine()??"0";
+int num = int.Parse(number);
+int s = num.ToString().Length;
+
+if (s < 3 || s > 3)
 {
-    Консоль.WriteLine("Вы ввели не трехзначное число");
+   Console.WriteLine("Вы ввели не трехзначное число");
 }
-ещё
+else
 {
-    Консоль.Строка записи(в центре (число));
+int res = ((num / 10) % 10);
+Console.WriteLine(res); 
 }
