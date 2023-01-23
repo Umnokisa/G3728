@@ -21,10 +21,13 @@
 // }
 
 //Вариант 2
+// Метод  Next -> возвращает тип int. Нужно преобразовать массив в число
 char[] digits = numSintezator.Next(10,100).ToString().ToCharArray();
+// -48 - преобразование символов в число
 Console.WriteLine(digits);
 int digit1 = (int)digits[0]-48;
 int digit2 = (int)digits[1]-48;
+// Тернарый оператор для логического сравнения. "?" если верно, то. ":" - иначе. 
 int resNum = digit1>digit2?digit1:digit2;
 Console.WriteLine(resNum);
 
