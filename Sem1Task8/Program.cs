@@ -53,7 +53,7 @@ string? num = Console.ReadLine()??"0";
 //Парсим введенное число
 int n = int.Parse(num);
 
-Console.WriteLine("Чётные числа от 1 до " + n + ":");
+Console.WriteLine("Чётные числа от 1 до " + n + ":"); 
 
 // Проверяем, что введенное число больше единицы на старте массива
 while (i < n)
