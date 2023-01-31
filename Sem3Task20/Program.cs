@@ -34,3 +34,4 @@ double len = CalcLen(coordX1, coordX2, coordY1, coordY2);
 //Выдаем результат
 PrintData("Расстояние между точками: ", len);
 
+
