@@ -10,8 +10,8 @@ ConsoleColor[] col = new ConsoleColor[]{ConsoleColor.Black,ConsoleColor.Blue,Con
                                         ConsoleColor.Yellow};
 
 //1) Получение данных от пользователя
-int n = InputNum("Количество строк матрицы");
-int m = InputNum("Количество строк матрицы");
+int n = InputNum("Количество строк матрицы ");
+int m = InputNum("Количество строк матрицы ");
 
 //2) Генерация двумерного массива
 int[,] matix = FillTwoDimArray(n,m);
